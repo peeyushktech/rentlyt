@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RentEasy",
-    "slug": "RentEasy",
+    "name": "Rentlyt",
+    "slug": "rentlyt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,19 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "in.rentlyt"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "99597f09-aba1-4b0f-b6e2-34b273cb6152"
+      }
     }
   }
 }
